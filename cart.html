@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="wim1.jpg">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+    <header class="bg-black">
+        <div class="container ">
+            <div class="text-center ">
+                <h1 class="text text-white">Bag <i class="bi bi-bag"></i></h1>
+            </div>
+        </div>
+    </header>
+    <section class="mt-5 ">
+        <div class="container w-75 bg-light border">
+            <div class="text-center">
+               <p id="tot">Total</p>
+               <h3 id="pris">price</h3>
+               <button class="btn btn-outline-secondary mt-3 mb-3">Buy now</button>
+            </div>
+        </div>
+    </section>
+    
+    <div id="disp">
+        <!-- content add on here -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script  src="cart.js"></script>
+    <script>
+        displayList();
+    </script>
+</body>
+</html>
